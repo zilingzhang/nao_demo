@@ -12,7 +12,7 @@ concept:(thx) ["thank you" thanks gracias "much obliged" merci]
 concept:(hello) [hello hi hey "good morning" greetings]
 concept:(bye) [bye goodbye "bye bye" "tata" "see you" adios cheerio "so long" farewell "have a nice day"]
 concept:(from) ["Where are you from" "Where're you from" "you from" from]
-concept:(mines) ["tell me about Mines"]
+concept:(mines) [mines "tell me about Mines"]
 
 
 # Start/Wait animation, Goto.
@@ -62,7 +62,7 @@ u:(~thx) You're welcome
 
 # Info - Mines
 u:(~from) I'm from Colorado School of Mines
-u:(~mines) Of course! #TODO
+u:(~mines) ^start(animations/Stand/Gestures/YouKnowWhat_1) Of course! I have traveled to many different places in my life, and seen many sights. The Greatest, by far, though, continues to be the HCR lab at the Colorado School of Mines. Colorado School of Mines, also referred to as "Mines", is a public teaching and research university in Golden, Colorado, devoted to engineering and applied science, with special expertise in the development and stewardship of the Earth's natural resources.  #TODO
 
 # Exiting.
 # Answering to Goodbye and exiting the dialog box, stimulating the onStopped output slot.
