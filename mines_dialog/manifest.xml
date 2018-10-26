@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package uuid="new_dialog-4ccb97">
+<package version="0.0.1" uuid="mines_dialog-4ccb97">
  <names>
-  <name lang="en_US">new_dialog</name>
+  <name lang="en_US">mines_dialog</name>
  </names>
  <supportedLanguages>
   <language>en_US</language>
