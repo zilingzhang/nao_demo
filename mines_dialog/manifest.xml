@@ -16,9 +16,10 @@
     <sentence lang="en_US">mines dialog</sentence>
     <sentence lang="en_US">mines demo</sentence>
    </triggerSentences>
-   <loadingResponses/>
-   <autonomous/>
    <permissions/>
   </behaviorContent>
+  <dialogContent typeVersion="1.0" topicName="ExampleDialog">
+   <topic path="behavior_1/ExampleDialog/ExampleDialog_enu.top" language="en_US"/>
+  </dialogContent>
  </contents>
 </package>
