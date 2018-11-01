@@ -12,6 +12,12 @@
  <contents>
   <behaviorContent path="behavior_1">
    <nature>interactive</nature>
+   <triggerSentences>
+    <sentence lang="en_US">mines dialog</sentence>
+    <sentence lang="en_US">mines demo</sentence>
+   </triggerSentences>
+   <loadingResponses/>
+   <autonomous/>
    <permissions/>
   </behaviorContent>
  </contents>
