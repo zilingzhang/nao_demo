@@ -64,16 +64,16 @@ u:(~thx) You're welcome
 
 # Info - Mines
 u:(~from) I'm from Colorado School of Mines.
-u:(~mines) ^start(animations/Stand/Gestures/YouKnowWhat_1) Of course! I have traveled to many different places in my life, and seen many sights. The Greatest, by far, though, continues to be the robotics labs at the Colorado School of Mines. Colorado School of Mines, also referred to as "Mines", is a public teaching and research university in Golden, Colorado, devoted to engineering and applied science, with special expertise in the development and stewardship of the Earth's natural resources. ^goto(csAtMines)
+u:(~mines) ^start(animations/Stand/Gestures/YouKnowWhat_1) Of course! I have traveled to many different places in my life, and seen many sights. The Greatest, by far, though, continues to be the robotics labs at the Colorado School of Mines. Colorado School of Mines, also referred to as "Mines", is a public teaching and research university in Golden, Colorado, devoted to engineering and applied science, with special expertise in the development of the Earth's natural resources. ^goto(csAtMines)
 proposal: %csAtMines ^startTag(show) Do you want to hear more about CS at mines?
-    u1:(~yes) Ok, CS at Mines prepares tomorrow’s leaders to bring the computational power and thinking of computer science to all fields of engineering and science, as well as business, medicine and entertainment. According to the Wall Street Journal, Mines was the top-ranked public university for combining faculty accessibility and research prowess. Our department takes those Mines strengths even further, with our emphasis on industry collaboration, commitment to diversity, and the steadfast goal of improving computer science education for Colorado and the nation. ^goto(bragging)
+    u1:(~yes) Ok, CS at Mines prepares tomorrow’s leaders to bring the computational power to all fields of engineering and science, as well as business, medicine and entertainment. We empahsizeon industry collaboration, commitment to diversity, and the steadfast goal of improving computer science education for Colorado and the nation. ^goto(bragging)
     u1:(~no) Maybe next time then.
 proposal: %bragging ^startTag(show) Am I bragging too much?
     u1:(~yes) It's not my fault, blame the script writer, I am just repeating what's on the website. 
     u1:(~no) Glad you like it.
 
 # Conference
-u:(~women) ^start(animations/Stand/Gestures/YouKnowWhat_1) Welcome to The Rocky Mountain Celebration of Women in Computing. It's great to see so many women interested in computing. What a time to be alive!
+u:(~women) ^start(animations/Stand/Gestures/YouKnowWhat_1) Welcome to Human Centered Robotics Lab in Colorado School of Mines. It's great to see so many young ladies interested in robotics. What a time to be alive!
     
 # Westworld
 u:(~westworld) No that doesn't work with me. ^goto(exitProgram)
